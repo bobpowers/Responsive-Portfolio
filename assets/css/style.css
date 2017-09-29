@@ -1,0 +1,267 @@
+body{
+	color: #777777;
+	font-size: 17px;
+}
+
+h1{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 35px;
+	font-weight: 900;
+	color: #ffffff;
+	text-align: center;
+	padding-top: 24px;
+}
+
+h2{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 28px;
+	font-weight: 900;
+	color: #4aaaa5;
+	padding: 25px 0px 25px 0px;
+	margin: 0px 25px 30px 25px;
+	border-style: solid;
+	border-width: 0px 0px 3px 0px;
+	border-color: #dddddd;
+}
+
+h3{
+	text-align: center;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 20px;
+	font-weight: 900;
+	color: #4aaaa5;
+	padding: 22px 0px 22px 0px;
+	margin: 0px 25px 22px 25px;
+	border-style: solid;
+	border-width: 0px 0px 2px 0px;
+	border-color: #dddddd;
+
+}
+
+/*Top bar of the page*/
+header{
+	background-color: #ffffff;
+	width: 100%;
+	height: 85px;
+	position: relative;
+}
+
+#myName{
+	width: 320px;
+	height: 85px;
+	background-color: #4aaaa5;
+	position: relative;
+	left: 12%;
+	display: inline-block;
+}
+
+#navBar a{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	text-decoration: none;
+}
+
+#navBar{
+	float:right;
+	position: relative;
+	right: 15%;
+}
+
+.navDivider {
+	display: inline-block;
+	color: #dddddd;
+}
+
+.topBar{
+	display: inline-block;
+	padding: 20px;
+	margin-top: 18px;
+}
+
+/*.dividers{
+	border-style: solid;
+	border-color: #cccccc;
+	border-width: 0px 1px;
+}*/
+
+
+/*Main Body Content*/
+.clearfix::after {
+	content:"";
+	display: block;
+	clear: both;
+}
+
+.mainContent{
+	background: url(../image/concrete-texture.png) #f3f2f4;
+	border-style: solid;
+	border-color: #cccccc;
+	border-width: 3px 0px 0px 0px;
+	padding-bottom: 100px;
+	/*width: 960px;*/
+}
+
+/*Main Content Floated Left*/
+#leftContent{
+	background-color: #ffffff;
+	width: 650px;
+	position: relative;
+	left: 5%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-right: 1px;
+	border-style: solid;
+	border-color: #dddddd;
+	border-width: 2px;
+	float: left;
+}
+
+
+/*LEFT Content for index.html*/
+.bobPowersImage{
+	width: 200px;
+	height: 200px;
+	margin: 0px 20px 10px 25px;
+	float: left;
+}
+
+.bio{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	margin: 0px 20px 20px 22px;
+	text-align: justify;
+}
+
+
+/*LEFT Content for contact.html*/
+
+.contactForm {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	margin: 0px 20px 20px 22px;
+}
+/*Name&Email portion of Form*/
+.formInput {
+	width: 100%;
+	display: flex;
+	color: #777777;
+	font-size: 15px;
+}
+
+/*Message portion of Form*/
+
+form {
+	padding-right: 8px;
+}
+
+#submitButton {
+	background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 17px;
+    cursor: pointer;
+    border:none;
+    padding: 7px 20px;
+}
+
+
+
+
+/*LEFT Content for portfolio.html*/
+
+.portfolioWork {
+	margin-bottom: 40px;
+}
+
+.listedWork {
+	width: 266px;
+	margin-bottom: 54px;
+	margin-left: 38px;
+	position: relative;
+	float: left;
+}
+
+.listedWork p {
+	width: 100%;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 20px;
+	color: #ffffff;
+	background-color: #4aaaa5;
+	position: absolute;
+	bottom: 8%;
+	text-align: center;
+	padding: 17px 0px;
+}
+
+/*Main Content Floated Right*/
+@media screen and (min-width: 981px) {
+	#connectWithMe {
+		left: 5%;
+		float: left;
+	}
+		#leftContent{
+		background-color: #ffffff;
+		width: 650px;
+		position: relative;
+		left: 2%;
+		margin-top: 30px;
+		margin-bottom: 30px;
+		margin-right: 1px;
+		border-style: solid;
+		border-color: #dddddd;
+		border-width: 2px;
+		float: left;
+	}
+}
+
+@media screen and (min-width: 1120px) {
+	#connectWithMe{
+		right: 10%;
+	}
+}
+
+#connectWithMe{
+		background-color: #ffffff;
+		width: 270px;
+		height: auto;
+		position: relative;
+		right: 12%;
+		margin-top: 30px;
+		float: right;
+		border-style: solid;
+		border-color: #dddddd;
+		border-width: 2px;
+}
+
+#logoGroup{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.logoLinks{
+	margin: 0px 2px;
+}
+
+
+/*Footer-Bottom Bar*/
+footer{
+	/*clear: both;*/
+	background-color: #666666;
+	width: 100%;
+	height: 80px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 15px;
+	color: #ffffff;
+	text-align: center;
+	border-style: solid;
+	border-color: #4aaaa5;
+	border-width: 7px 0px 0px 0px;
+}
+
+footer p{
+	padding-top: 34px;
+}
+
+
+
+
+
+
